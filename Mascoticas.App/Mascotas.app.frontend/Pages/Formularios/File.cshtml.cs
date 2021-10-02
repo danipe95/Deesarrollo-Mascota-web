@@ -9,7 +9,7 @@ namespace Mascotas.app.frontend.Pages
 {
     public class ListModel : PageModel
     {
-        private string [] formularios = {"formulario1","formullario 2","formulario3", "formulario4", "formulario5"};
+        private string [] formularios = {"formulario1","formulario 2","formulario3", "formulario4", "formulario5"};
 
         public List<string> ListaFormularios {get;set;}
 
