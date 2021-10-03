@@ -2,12 +2,22 @@
 @model Mascotas.app.frontend.pages.FPedirVisitaModelModel
 @{
 }
+<style>
+    .buttonc{
+            
+            width: calc(100% - 50px);
+            height: 30px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+</style>
+
 <title>Visita MASCOT-CRACKS</title>
     <div align="center">
         <h1>Solicitud de Visita MASCOT-CRACKS</h1>
     </div>
     <div align="center">
-            <img src="Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\Images\Imagen1.jpeg" width="200" height="150"><div align="center"></div>
+            <img src="/Images/Imagen1.jpeg" width="200" height="150"><div align="center"></div>
         </div>
     <div align="center">
         <h3>
@@ -15,8 +25,7 @@
         </h3>
     </div>
 
-    <form action="/action page.php">   
-        
+    <form action="/action page.php">         
                   
             <h3>Datos del Solicitante de la Visita:</h3>
             <!-- id -->
@@ -82,7 +91,7 @@
                 Seleccione la hora deseada:
                 <input type="time" name="hora" min="18:00" max="21:00" step="3600" /><br>
             </form><br>
-              <button>Enviar formulario</button><br>
+              <button class="buttonc" >Enviar formulario</button><br>
        
                 
         <p>Señor usuario, se enviara a su correo la fecha de la visita que solicitó, 

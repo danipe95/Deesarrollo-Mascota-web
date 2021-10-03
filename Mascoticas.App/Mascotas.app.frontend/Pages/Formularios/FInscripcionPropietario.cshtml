@@ -1,0 +1,77 @@
+﻿@page
+@model Mascotas.app.frontend.pages.FInscripcionPropietarioModel
+@{
+}
+
+<style>
+    .moverCuadro{
+            float:right;
+            height: 22px;
+        }
+    .buttonc{
+            
+            width: calc(100% - 50px);
+            height: 30px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+</style>
+
+    <div align="center">
+        <h1>Suscripción a MASCOT-CRACKS</h1>
+    </div>
+
+    <div align="center">
+        <h3>INFORMACIÓN PROPIETARIO</h3>   
+    </div>  
+
+        <form action="/action_page.php">
+            <p>Tipo de Documento: <select class= moverCuadro style="width:700px;" name="Documento" id="documento"></p>
+                <option value="1">Cedula de Ciudadania</option>
+                <option value="2">Cedula de Extranjeria</option>
+                <option value="3">Pasaporte</option>
+                <option value="4">Registro Civil</option>                
+                <option value="5">Tarjeta de Identidad</option>                
+            </select><br><br>
+
+            <label for="ID">Número de Identificación: </label>
+            <input class= texto style="width:600px;" type="number"><br><br><br>
+
+            <label for="namePropietario">Nombre: </label>
+            <input class= texto style="width:600px;" type="text" id="nombrePropietario"><br><br><br>
+
+            <label for="lastName">Apellido: </label>
+            <input class= texto style="width:600px;" type="text" id="apellido"><br><br><br>
+
+            <label for="start">Fecha de Nacimiento:</label>
+            <input style="width:600px;" type="date" name="fecha" min="2018-01-01" max="2022-12-31"/><br><br><br>
+
+            <label for="direccion">Dirección: </label>
+            <input class= texto style="width:600px;" type="text"><br><br>
+
+            <label for="celular">Número de celular: </label>
+            <input class= texto style="width:600px;" type="text"><br><br><br>
+
+            <div class="frm-row">
+                <div class="section colm colm6">
+                  <label for="guestemail" class="field-label">Correo Electronico: </label>
+                  <label for="guestemail" class="field prepend-icon">
+                    <input  style="width:600px;" type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="john@something.com" autocomplete="off">
+                    <span class="field-icon"><i class="fa fa-envelope"></i></span>  
+                  </label>
+                </div>
+            </div><br><br>           
+            
+        </form>
+
+        <button class="buttonc">Enviar formulario</button><br><br><br>
+
+        <button class="buttonc"><a asp-page="/Formularios/FInscripcionMascota">Afiliar Mascota</a></button><br><br>
+
+        <button><a asp-page="/Index">Volver</a></button><br><br><br>
+    
+    
+    
+    
+
+    

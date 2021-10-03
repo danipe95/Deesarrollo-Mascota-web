@@ -113,3 +113,6 @@ C:\Mascota_Feliz_Git\Deesarrollo-Mascota-web\Mascoticas.app\Mascotas.app.fronten
 C:\Mascota_Feliz_Git\Deesarrollo-Mascota-web\Mascoticas.app\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csproj.CopyComplete
 C:\Mascota_Feliz_Git\Deesarrollo-Mascota-web\Mascoticas.app\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FPedirVisitaModel.cshtml.g.cs
 C:\Mascota_Feliz_Git\Deesarrollo-Mascota-web\Mascoticas.app\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FVisitaVeterinarioModel.cshtml.g.cs
+C:\Mascota_Feliz_Git\deesarrollo-Mascota-web\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionMascota.cshtml.g.cs
+C:\Mascota_Feliz_Git\deesarrollo-Mascota-web\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionPropietario.cshtml.g.cs
+C:\Mascota_Feliz_Git\deesarrollo-Mascota-web\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FLogin.cshtml.g.cs

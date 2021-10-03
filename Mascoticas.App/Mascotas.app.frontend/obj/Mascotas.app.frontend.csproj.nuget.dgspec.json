@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mascota_Feliz_Git\\Deesarrollo-Mascota-web\\Mascoticas.app\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {}
+    "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {}
   },
   "projects": {
-    "C:\\Mascota_Feliz_Git\\Deesarrollo-Mascota-web\\Mascoticas.app\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {
+    "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascota_Feliz_Git\\Deesarrollo-Mascota-web\\Mascoticas.app\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
+        "projectUniqueName": "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
         "projectName": "Mascotas.app.frontend",
-        "projectPath": "C:\\Mascota_Feliz_Git\\Deesarrollo-Mascota-web\\Mascoticas.app\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
+        "projectPath": "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascota_Feliz_Git\\Deesarrollo-Mascota-web\\Mascoticas.app\\Mascotas.app.frontend\\obj\\",
+        "outputPath": "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

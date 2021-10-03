@@ -1,0 +1,36 @@
+﻿@page
+@model Mascotas.app.frontend.pages.FLoginModel
+@{
+}
+<style>
+    .moverCuadro{
+            float:right;
+            height: 22px;
+        }
+    .buttonc{
+            
+            width: calc(100% - 50px);
+            height: 30px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        
+</style>
+
+    <div align="center">
+        <h3>ACCESO MASCOT CRACKS</h3>
+    </div>
+    
+    <form action="/action_page.php">
+            <p>Tipo de Usuario: <select name="Documento" id="documento"></p>
+                <option value="1">Seleccione una opción:</option>
+                <option value="2">Cliente</option>
+                <option value="3">Veterinario</option>               
+            </select><br><br><br>
+            <label for="ID">Número de Identificación: </label>
+            <input style="width:600px;" class= texto type="number"><br><br>
+            <label for="contraseña">Contraseña: </label>
+            <input style="width:600px;" type="password" id="contraseña"><br><br>
+        </form>        
+        <button class="buttonc">Acceder</button><br><br><br>
+    
