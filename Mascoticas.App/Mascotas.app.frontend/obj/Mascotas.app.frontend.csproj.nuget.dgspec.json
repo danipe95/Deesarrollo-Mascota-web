@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {}
+    "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\Mascotas.app.frontend.csproj": {}
   },
   "projects": {
-    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {
+    "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\Mascotas.app.frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
+        "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\Mascotas.app.frontend.csproj",
         "projectName": "Mascotas.app.frontend",
-        "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
-        "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
-        "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\obj\\",
+        "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\Mascotas.app.frontend.csproj",
+        "packagesPath": "C:\\Users\\amemo\\.nuget\\packages\\",
+        "outputPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\amemo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

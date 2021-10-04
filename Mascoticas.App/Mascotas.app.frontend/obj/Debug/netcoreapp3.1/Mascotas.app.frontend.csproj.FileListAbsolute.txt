@@ -160,3 +160,47 @@ D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\D
 D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.pdb
 D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.genruntimeconfig.cache
 D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csproj.CopyComplete
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.exe
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.deps.json
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.runtimeconfig.json
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.runtimeconfig.dev.json
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.pdb
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.Views.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.Views.pdb
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csprojAssemblyReference.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.AssemblyInfoInputs.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.AssemblyInfo.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csproj.CoreCompileInputs.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorAssemblyInfo.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorAssemblyInfo.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.TagHelpers.input.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.TagHelpers.output.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorCoreGenerate.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FCostos.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\File.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionMascota.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionPropietario.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FLogin.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FPedirVisitaModel.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FVisitaVeterinarioModel.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorTargetAssemblyInfo.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorTargetAssemblyInfo.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.Views.pdb
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\Mascotas.app.frontend.StaticWebAssets.Manifest.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\Mascotas.app.frontend.StaticWebAssets.xml
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.pdb
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.genruntimeconfig.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csproj.CopyComplete
