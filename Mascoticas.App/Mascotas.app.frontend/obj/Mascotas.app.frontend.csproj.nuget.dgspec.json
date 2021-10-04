@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {}
+    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {}
   },
   "projects": {
-    "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {
+    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
+        "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
         "projectName": "Mascotas.app.frontend",
-        "projectPath": "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascota_Feliz_Git\\deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\obj\\",
+        "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
+        "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

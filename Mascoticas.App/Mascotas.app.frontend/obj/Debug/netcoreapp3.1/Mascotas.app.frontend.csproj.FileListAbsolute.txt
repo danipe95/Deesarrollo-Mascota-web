@@ -116,3 +116,47 @@ C:\Mascota_Feliz_Git\Deesarrollo-Mascota-web\Mascoticas.app\Mascotas.app.fronten
 C:\Mascota_Feliz_Git\deesarrollo-Mascota-web\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionMascota.cshtml.g.cs
 C:\Mascota_Feliz_Git\deesarrollo-Mascota-web\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionPropietario.cshtml.g.cs
 C:\Mascota_Feliz_Git\deesarrollo-Mascota-web\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FLogin.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.exe
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.deps.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.runtimeconfig.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.runtimeconfig.dev.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.Views.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\bin\Debug\netcoreapp3.1\Mascotas.app.frontend.Views.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csprojAssemblyReference.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.AssemblyInfoInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.AssemblyInfo.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csproj.CoreCompileInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.MvcApplicationPartsAssemblyInfo.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorAssemblyInfo.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorAssemblyInfo.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.TagHelpers.input.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.TagHelpers.output.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorCoreGenerate.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FCostos.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\File.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionMascota.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionPropietario.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FLogin.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FPedirVisitaModel.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FVisitaVeterinarioModel.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorTargetAssemblyInfo.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorTargetAssemblyInfo.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.Views.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\staticwebassets\Mascotas.app.frontend.StaticWebAssets.Manifest.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\staticwebassets\Mascotas.app.frontend.StaticWebAssets.xml
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.genruntimeconfig.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascotas.app.frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.csproj.CopyComplete
