@@ -1,4 +1,4 @@
-using Systems.Collections.Generic;
+using System.Collections.Generic;
 using Mascoticas.App.Dominio;
 
 namespace Mascoticas.App.Persistencia
@@ -9,6 +9,6 @@ namespace Mascoticas.App.Persistencia
         Mascota AddMascota(Mascota mascota);
         Mascota updateMascota(Mascota mascota);
         void DeleteMascota(int idMascota);
-        Macota GetMascota(int idMascota);
+        Mascota GetMascota(int idMascota);
     }
 }
