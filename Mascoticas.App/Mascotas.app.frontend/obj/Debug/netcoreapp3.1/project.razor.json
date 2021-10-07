@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
+  "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,38 +14402,73 @@
   "RootNamespace": "Mascotas.app.frontend",
   "Documents": [
     {
-      "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Formularios\\FPedirVisitaModel.cshtml",
+      "TargetPath": "Pages\\Formularios\\FPedirVisitaModel.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Pages\\Error.cshtml",
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Formularios\\File.cshtml",
+      "TargetPath": "Pages\\Formularios\\File.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Formularios\\FCostos.cshtml",
+      "TargetPath": "Pages\\Formularios\\FCostos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Formularios\\FInscripcionPropietario.cshtml",
+      "TargetPath": "Pages\\Formularios\\FInscripcionPropietario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Formularios\\FInscripcionMascota.cshtml",
+      "TargetPath": "Pages\\Formularios\\FInscripcionMascota.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Mascotas\\Mascotas.app\\Mascotas.app.frontend\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Formularios\\FLogin.cshtml",
+      "TargetPath": "Pages\\Formularios\\FLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.app.frontend\\Pages\\Formularios\\FVisitaVeterinarioModel.cshtml",
+      "TargetPath": "Pages\\Formularios\\FVisitaVeterinarioModel.cshtml",
       "FileKind": "mvc"
     }
   ],
