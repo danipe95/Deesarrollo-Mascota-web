@@ -10,7 +10,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-
+<!-- comentario -->
   <ItemGroup>
     <ProjectReference Include="..\Mascoticas.App.Persistencia\Mascoticas.App.Persistencia.csproj" />
   </ItemGroup>

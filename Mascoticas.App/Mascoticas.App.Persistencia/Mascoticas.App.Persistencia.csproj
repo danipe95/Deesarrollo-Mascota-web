@@ -20,5 +20,5 @@
   <ItemGroup>
     <ProjectReference Include="..\Mascoticas.App.Dominio\Mascoticas.App.Dominio.csproj" />
   </ItemGroup>
-
+<!-- comentario -->
 </Project>

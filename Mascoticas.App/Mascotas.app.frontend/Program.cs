@@ -15,7 +15,7 @@ namespace Mascotas.app.frontend
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+//comentario
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
