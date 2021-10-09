@@ -22,7 +22,7 @@ namespace Mascoticas.App.Persistencia.Migrations
 
             modelBuilder.Entity("Mascoticas.App.Dominio.Persona", b =>
                 {
-                    b.Property<int>("Id.")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
