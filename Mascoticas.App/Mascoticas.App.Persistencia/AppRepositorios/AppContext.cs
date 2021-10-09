@@ -6,6 +6,7 @@ namespace Mascoticas.App.Persistencia
     public class AppContext : DbContext
     {
         public DbSet<Persona> Personas {get;set;}
+        public DbSet<Propietario> Propietarios {get;set;}
         // public DbSet<Mascota> Mascotas {get;set;}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
