@@ -14,8 +14,8 @@ namespace Mascoticas.App.Persistencia
         if (!optionsBuilder.IsConfigured)
         {
             optionsBuilder
-            .UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog = MascotasData;Integrated Security = True");
-            //.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initia  l Catalog = MascoticastData ");
+            // .UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog = MascotasData;Integrated Security = True");
+            .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initia  l Catalog = MascoticasData ");
         }
     }
     }
