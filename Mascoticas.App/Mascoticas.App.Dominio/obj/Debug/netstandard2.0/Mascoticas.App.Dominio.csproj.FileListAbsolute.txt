@@ -16,3 +16,12 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netst
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\bin\Debug\netstandard2.0\Mascoticas.App.Dominio.deps.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\bin\Debug\netstandard2.0\Mascoticas.App.Dominio.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\bin\Debug\netstandard2.0\Mascoticas.App.Dominio.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.csprojAssemblyReference.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.AssemblyInfoInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.AssemblyInfo.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.pdb

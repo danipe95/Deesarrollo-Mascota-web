@@ -7,7 +7,7 @@ namespace Mascoticas.App.Dominio
         public String Nombre {get;set;}
         public String Tipo {get;set;}
         public String Raza {get;set;}
-        public Propietario Propietario  {get;set;}
+        //public Propietario Propietario  {get;set;}
         public String Peso  {get;set;}
         public String Temperatura {get;set;}
         public String FrecuenciaCardiaca {get;set;}

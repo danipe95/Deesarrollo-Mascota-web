@@ -1,7 +1,12 @@
 ﻿@page
 @model Mascotas.app.frontend.pages.FInscripcionMascotaModel
 @{
+    ViewData["Title"] = "Inscripción - Mascot Cracks";
 }
+<head>
+    <link rel="stylesheet" href="~/css/imageSL.css">
+    <link rel="stylesheet" href="~/css/BodyStyle.css">
+</head>
  <style>
        
         h2{
@@ -29,6 +34,14 @@
                 height: 25px;
             }        
      </style>
+<body class="fstyle">
+    
+
+     <div align="center">
+        <img class ="logo" src="~/images/Imagen1.jpg"> 
+        <div align="center"></font></div>
+    </div>
+    
     <form action="/action_page.php"></form>
         <div align = "center"><h3>INFORMACIÓN MASCOTA 1</h3></div>
             
@@ -36,7 +49,7 @@
             <label for="nameMascota">Nombre de la Mascota: </label>
             <input class= texto style="width:600px;" type="text" id="nombreMascota"><br>
             <label for="start">Fecha de Nacimiento:</label>
-            @* quite la parte de movercuadro *@
+            @* quite la parte de mover cuadro *@
             <input type="date" name="fecha" min="2018-01-01" max="2022-12-31"/><br><br>
     
         <h3>TIPO DE MASCOTA</h3>
@@ -136,4 +149,4 @@
                     <button><a asp-page="/Index">Volver</a></button><br><br><br>
 
             </form>
-          
+        </body>

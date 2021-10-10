@@ -5796,19 +5796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amemo\\.nuget\\packages\\": {}
+    "C:\\Users\\Daniel Engativa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\Mascotas.app.frontend.csproj",
+      "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
       "projectName": "Mascotas.app.frontend",
-      "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\Mascotas.app.frontend.csproj",
-      "packagesPath": "C:\\Users\\amemo\\.nuget\\packages\\",
-      "outputPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascotas.App.Frontend\\obj\\",
+      "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\Mascotas.app.frontend.csproj",
+      "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
+      "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascotas.app.frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amemo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5819,8 +5819,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj": {
-              "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj"
+            "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj": {
+              "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj"
             }
           }
         }

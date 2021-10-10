@@ -1,10 +1,19 @@
 ﻿@page
 @model Mascotas.app.frontend.Pages.FCostosModel
 @{
+    ViewData["Title"] = "Pagos - Mascot Cracks";
 }
-   
+<head>
+    <link rel="stylesheet" href="~/css/imageSL.css">
+    <link rel="stylesheet" href="~/css/BodyStyle.css">
+</head>   
+<body class="fstyle">
+    
+    <div align="center"><h2>Formulario de Pagos</h2></div>
+    
     <div align="center">
-        <img src="/Images/Imagen1.jpeg" width="200" height="150"><div align="center"></font></div>
+        <img class ="logo" src="~/images/Imagen1.jpg"> 
+        <div align="center"></font></div>
     </div>
     
     <div align="center"><h2>PAGO DE SERVICIO MASCOTA FELIZ </h2></div>    
@@ -62,5 +71,8 @@
             formas de pago que ha acordado, Gracias por elegirnos</p><br>
 
         <button><a asp-page="/Index">Volver</a></button><br><br><br>    
-        
+
+        <img src="ima/GOPRO305.jpg" width="200" height="300" alt="imgf">
+
     </form>
+    </body>

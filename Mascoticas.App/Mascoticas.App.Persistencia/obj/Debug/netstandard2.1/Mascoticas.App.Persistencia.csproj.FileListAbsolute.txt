@@ -22,3 +22,15 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Dominio.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Dominio.pdb
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csproj.CopyComplete
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Persistencia.deps.json
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Persistencia.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Persistencia.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Dominio.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Dominio.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csprojAssemblyReference.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.AssemblyInfoInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.AssemblyInfo.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csproj.CopyComplete
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.pdb

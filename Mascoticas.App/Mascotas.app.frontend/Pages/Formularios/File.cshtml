@@ -2,6 +2,13 @@
 @model Mascotas.app.frontend.Pages.ListModel
 @{
 }
+<head>
+    <link rel="stylesheet" href="~/css/imageSL.css">
+    <link rel="stylesheet" href="~/css/BodyStyle.css">
+</head>
+
+<body class="fstyle">
+
 <h1>Lista de Formularios</h1>
 <table class="table">
     @foreach (var formularios in Model.ListaFormularios)
@@ -11,3 +18,6 @@
         </tr>
         
     }
+    
+        
+    </body>
