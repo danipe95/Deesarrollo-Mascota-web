@@ -16,11 +16,11 @@ namespace Mascotas.app.frontend.pages
 
         public FPedirVisitaModelModel(IRepositorioVisita repositorioVisita)
         {
-            this.repositorioVisita = new repositorioVisita(new Mascoticas.App.Persistencia.AppContext());
+            this.repositorioVisita = new RepositorioVisita(new Mascoticas.App.Persistencia.AppContext());
         }
         public void OnGet()
         {
-            Vistas = repositorioVisita.GetAllVis();
+            Visitas = repositorioVisita.GetAllVis();
         }
     }
 }
