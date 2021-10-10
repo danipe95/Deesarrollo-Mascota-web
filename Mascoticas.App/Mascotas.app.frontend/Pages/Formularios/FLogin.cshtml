@@ -2,6 +2,10 @@
 @model Mascotas.app.frontend.pages.FLoginModel
 @{
 }
+<head>
+    <link rel="stylesheet" href="~/css/BodyStyle.css">
+    <link rel="stylesheet" href="~/css/imageSL.css">
+</head>
 <style>
     .moverCuadro{
             float:right;
@@ -17,9 +21,18 @@
         
 </style>
 
+<body class="fstyle">
+    
+     <div align="center">
+        <img class ="logo" src="~/images/Imagen1.jpg"> 
+        <div align="center"></font></div>
+    </div>
+
     <div align="center">
         <h3>ACCESO MASCOT CRACKS</h3>
     </div>
+
+    
     
     <form action="/action_page.php">
             <p>Tipo de Usuario: <select name="Documento" id="documento"></p>
@@ -33,4 +46,4 @@
             <input style="width:600px;" type="password" id="contraseña"><br><br>
         </form>        
         <button class="buttonc">Acceder</button><br><br><br>
-    
+</body>    
