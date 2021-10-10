@@ -182,7 +182,6 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcor
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Mascotas.app.frontend.RazorCoreGenerate.cache
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FCostos.cshtml.g.cs
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\File.cshtml.g.cs
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionMascota.cshtml.g.cs
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FInscripcionPropietario.cshtml.g.cs
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascotas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FLogin.cshtml.g.cs

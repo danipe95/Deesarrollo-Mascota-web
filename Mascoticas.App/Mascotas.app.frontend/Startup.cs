@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Mascoticas.App.Persistencia;
-// using Mascoticas.App.Persistencia.AppRepositorios;
+using Mascoticas.App.Persistencia.AppRepositorios;
 
 namespace Mascotas.app.frontend
 {
@@ -26,7 +26,11 @@ namespace Mascotas.app.frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            // services.AddSingleton<IRepositorioMascota, RepositorioMascota>();
+            services.AddScoped<IRepositorioMascota, RepositorioMascota>();
+            services.AddScoped<IRepositorioPropietario, RepositorioPropietario>();
+            services.AddScoped<IRepositorioVeterinario, RepositorioVeterinario>();
+            services.AddScoped<IRepositorioVisita, RepositorioVisita>();
+            services.AddDbContext<Mascoticas.App.Persistencia.AppContext>();
 
         }
 
