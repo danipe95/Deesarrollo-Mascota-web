@@ -8,7 +8,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         IEnumerable<Mascota> GetAllM(); 
         Mascota Add(Mascota nuevaMascota);
         Mascota Update(Mascota mascotaActualizada);
-        void DeleteMascota(int IdMascota);
+        // void DeleteMascota(int IdMascota);
         Mascota GetMascotaId(int IdMascota);
     }
 }

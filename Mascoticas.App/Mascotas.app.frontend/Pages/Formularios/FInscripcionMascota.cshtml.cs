@@ -17,7 +17,7 @@ namespace Mascotas.app.frontend.pages
 
         public FInscripcionMascotaModel(IRepositorioMascota repositorioMascota)
         {
-            this.repositorioMascota = new RepositorioMascota(new Mascoticas.App.Persistencia.AppContext());
+            this.repositorioMascota = repositorioMascota;
         }
               
         public void OnGet()

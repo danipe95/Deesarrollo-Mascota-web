@@ -13,15 +13,15 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         EstadoAnimo,Recomendaciones*/
         List<Mascota> mascota;
 
-        private readonly AppContext _appContext;
-        
-        public RepositorioMascota(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
-     
+        // private readonly AppContext _appContext;
+
+        // public RepositorioMascota(AppContext appContext)
+        // {
+        //     _appContext = appContext;
+        // }
+
         public RepositorioMascota()
-        {    
+        {
 
             mascota = new List<Mascota>()
             {
@@ -37,14 +37,14 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             mascota.Add(nuevaMascota);
             return nuevaMascota;
         }
-       
+
         public Mascota Update(Mascota mascotaActualizada)
         {
             var mascotas= mascota.SingleOrDefault(r => r.Id==mascotaActualizada.Id);
             if (mascotas!=null)
             {   /*
             ___________________________________________________________
-                Datos de mascota: 
+                Datos de mascota:
                 IdMascota,Nombre,Tipo,Raza,Propietario,Peso,Temperatura,
                 FrecuenciaCardiaca,FrecuenciaRespiratoria,
                 EstadoAnimo,Recomendaciones
@@ -62,26 +62,26 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             return mascotas;
         }
 
-        void IRepositorioMascota.DeleteMascota(int IdMascota)
-        {
-            var mascotaEncontrada = _appContext.Mascotas.FirstOrDefault(c => c.Id == IdMascota);
-            if (mascotaEncontrada == null)
-                return;
-            _appContext.Mascotas.Remove(mascotaEncontrada);
-            _appContext.SaveChanges();
-        }
+        // void IRepositorioMascota.DeleteMascota(int IdMascota)
+        // {
+        //     var mascotaEncontrada = _appContext.Mascotas.FirstOrDefault(c => c.Id == IdMascota);
+        //     if (mascotaEncontrada == null)
+        //         return;
+        //     _appContext.Mascotas.Remove(mascotaEncontrada);
+        //     _appContext.SaveChanges();
+        // }
 
-        /*public IEnumerable<Mascota> GetAllM()
+        public IEnumerable<Mascota> GetAllM()
         {
             return mascota;
-        }*/
-
-        IEnumerable<Mascota> IRepositorioMascota.GetAllM()
-        {
-            return _appContext.Mascotas;
         }
 
-        
+        // IEnumerable<Mascota> IRepositorioMascota.GetAllM()
+        // {
+        //     return _appContext.Mascotas;
+        // }
+
+
         public Mascota GetMascotaId(int mascotaId)
         {
             return mascota.SingleOrDefault(m => m.Id==mascotaId);

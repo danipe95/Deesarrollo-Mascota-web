@@ -25,3 +25,12 @@ D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\
 D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.csproj.CoreCompileInputs.cache
 D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.dll
 D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.pdb
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\bin\Debug\netstandard2.0\Mascoticas.App.Dominio.deps.json
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\bin\Debug\netstandard2.0\Mascoticas.App.Dominio.dll
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\bin\Debug\netstandard2.0\Mascoticas.App.Dominio.pdb
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.csprojAssemblyReference.cache
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.AssemblyInfoInputs.cache
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.AssemblyInfo.cs
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.dll
+C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Dominio\obj\Debug\netstandard2.0\Mascoticas.App.Dominio.pdb
