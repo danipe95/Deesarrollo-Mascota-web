@@ -22,7 +22,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 
         Visita IRepositorioVisita.UpdateVisita(Visita visitaActualizada)
         {
-            var visitaEncontrada = _appContext.Visitas.FirstOrDefault(v => v.IdVisita == visitaActualizada.IdVisita);
+            var visitaEncontrada = _appContext.Visitas.FirstOrDefault(v => v.Id == visitaActualizada.Id);
             if (visitaEncontrada != null)
                 {
                     visitaEncontrada.Fecha = visitaActualizada.Fecha;         
@@ -34,7 +34,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 
         void IRepositorioVisita.DeleteVisita(int idVisita)
         {
-            var visitaEncontrada = _appContext.Visitas.FirstOrDefault(vs => vs.IdVisita == idVisita);
+            var visitaEncontrada = _appContext.Visitas.FirstOrDefault(vs => vs.Id == idVisita);
             if (visitaEncontrada == null)
                 return;
             _appContext.Visitas.Remove(visitaEncontrada);
@@ -43,7 +43,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 
         Visita IRepositorioVisita.GetVisita(int idVisita)
         {
-            return _appContext.Visitas.FirstOrDefault(vet => vet.IdVisita == idVisita);
+            return _appContext.Visitas.FirstOrDefault(vet => vet.Id == idVisita);
         } 
 
         IEnumerable<Visita> IRepositorioVisita.GetAllVis()
