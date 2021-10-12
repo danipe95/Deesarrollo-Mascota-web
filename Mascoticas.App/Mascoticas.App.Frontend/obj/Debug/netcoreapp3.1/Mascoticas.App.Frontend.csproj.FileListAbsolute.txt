@@ -1,0 +1,7 @@
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.csprojAssemblyReference.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.AssemblyInfoInputs.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.AssemblyInfo.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.RazorAssemblyInfo.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.RazorAssemblyInfo.cs

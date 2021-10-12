@@ -1,0 +1,41 @@
+﻿@page
+@model Mascoticas.App.Frontend.Pages.FLisVisitasModel
+@{
+}
+<h2>
+    HISTORICO DE VISITAS
+</h2>
+<table class= "table">
+
+    <thead>
+            <tr>
+                <th>Id</th>
+                <th>Fecha </th>
+                <th>Detalle</th>
+                <th>Editar</th>
+                
+            </tr>
+    </thead>
+
+                @foreach (var Visita in Model.Visitas)
+                {
+                    <tr>
+                        <td>@Visita.Id</td>
+                        <td>@Visita.Fecha</td>
+                        
+                    <td>
+                <a class="btn btn-primary table-btn" asp-page="./FInscripcionVisita" asp-route-VisitaId="@Visita.Id">
+                    <i class="fas fa-info-circle fa-lg"></i </a>
+                </td>
+
+                <td>
+                <a class="btn btn-primary table-btn" asp-page="./FInscripcionVisita" asp-route-VisitaId="@Visita.Id">
+                    <i class="fas fa-info-circle fa-lg"></i </a>
+                </td>
+
+                    </tr>
+                
+                    
+                } 
+
+            </table>
