@@ -14,7 +14,7 @@ namespace Mascotas.app.frontend.Pages
     {
         private readonly IRepositorioMascota repositorioMascota;
         
-        public IEnumerable<Mascota> Mascotas {get;set;} 
+        public IEnumerable<Mascota> mascotas {get;set;} 
 
         public DetailsMascotasModel(IRepositorioMascota repositorioMascota)
         {
@@ -22,8 +22,8 @@ namespace Mascotas.app.frontend.Pages
         }
         public IActionResult OnGet(int mascotaId)
         {
-            Mascota = repositorioMascota.GetMascotaPorId(mascotaId);
-            if(Mascota==null)
+            mascotas = repositorioMascota.GetMascotaPorId(mascotaId);
+            if(mascotas==null)
             {
                 return RedirectToPage("./NotFound");
             }

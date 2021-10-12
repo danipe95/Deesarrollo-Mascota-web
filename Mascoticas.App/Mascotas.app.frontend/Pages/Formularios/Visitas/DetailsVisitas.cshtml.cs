@@ -14,7 +14,7 @@ namespace Mascotas.app.frontend.Pages
     public class DetailsVisitasModel : PageModel
     {
          private readonly IRepositorioVisita repositorioVisita;
-        public IEnumerable<Visita> Visitas {get;set;} 
+        public IEnumerable<Visita> visitas {get;set;} 
 
         public DetailsVisitasModel(IRepositorioVisita repositorioVisita)
         {
@@ -22,8 +22,8 @@ namespace Mascotas.app.frontend.Pages
         }
         public IActionResult OnGet(int VisitaId)
         {
-            Visita = repositorioVisita.GetVisitaPorId(VisitaId);
-            if(Visita==null)
+            visitas = repositorioVisita.GetVisitaPorId(VisitaId);
+            if(visitas==null)
             {
                 return RedirectToPage("./NotFound");
             }

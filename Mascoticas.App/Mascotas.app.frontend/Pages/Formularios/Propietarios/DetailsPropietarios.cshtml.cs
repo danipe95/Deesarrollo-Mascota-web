@@ -13,7 +13,7 @@ namespace Mascotas.app.frontend.Pages
     public class DetailsPropietariosModel : PageModel
     {
         private readonly IRepositorioPropietario repositorioPropietario;
-        public IEnumerable<Propietario> Propietarios {get;set;} 
+        public IEnumerable<Propietario> propietarios {get;set;} 
 
         public DetailsPropietariosModel(IRepositorioPropietario repositorioPropietario)
         {
@@ -21,8 +21,8 @@ namespace Mascotas.app.frontend.Pages
         }
         public IActionResult OnGet(int PropietarioId)
         {
-            Propietario = repositorioPropietario.GetPropietarioPorId(PropietarioId);
-            if(Propietario==null)
+            propietarios = repositorioPropietario.GetPropietarioPorId(PropietarioId);
+            if(propietarios==null)
             {
                 return RedirectToPage("./NotFound");
             }

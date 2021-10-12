@@ -12,7 +12,7 @@ namespace Mascotas.app.frontend.Pages
     public class DetailsVeterinariosModel : PageModel
     {
         private readonly IRepositorioVeterinario repositorioVeterinario;
-        public IEnumerable<Veterinario> Veterinarios {get;set;} 
+        public IEnumerable<Veterinario> veterinarios {get;set;} 
 
         public DetailsVeterinariosModel(IRepositorioVeterinario repositorioVeterinario)
         {
@@ -20,8 +20,8 @@ namespace Mascotas.app.frontend.Pages
         }
         public IActionResult OnGet(int VeterinarioId)
         {
-            Veterinario = repositorioVeterinario.GetVeterinarioPorId(VeterinarioId);
-            if(Veterinario==null)
+            veterinarios = repositorioVeterinario.GetVeterinarioPorId(VeterinarioId);
+            if(veterinarios==null)
             {
                 return RedirectToPage("./NotFound");
             }
