@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {}
+    "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {}
   },
   "projects": {
-    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
+    "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
         "projectName": "Mascoticas.App.Dominio",
-        "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
-        "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\obj\\",
+        "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

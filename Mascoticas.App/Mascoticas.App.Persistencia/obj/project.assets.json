@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel Engativa\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
       "projectName": "Mascoticas.App.Persistencia",
-      "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
-      "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
-              "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj"
+            "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
+              "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj"
             }
           }
         }

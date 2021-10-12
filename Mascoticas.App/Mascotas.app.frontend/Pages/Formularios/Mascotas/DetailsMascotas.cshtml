@@ -1,0 +1,15 @@
+﻿@page
+@model Mascotas.app.frontend.Pages.DetailsMascotasModel
+@{
+}
+<h2>@Model.Mascota.Nombre</h2>
+<div>
+    Id: @Model.Mascota.IdMascota
+</div>
+<div>
+    Tipo: @Model.Mascota.Tipo
+</div>
+<div>
+    Raza: @Model.Mascota.Raza
+</div>
+<a asp-page="./FLisMascotas" class="btn-default">Lista de Mascotas </a>

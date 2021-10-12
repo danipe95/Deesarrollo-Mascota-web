@@ -8,8 +8,9 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         IEnumerable<Veterinario> GetAll(); 
         Veterinario AddVeterinario(Veterinario nuevoVeterinario);
         Veterinario UpdateVeterinario(Veterinario veterinarioActualizado);
-        void DeleteVeterinario(int IdVeterinario);
+        //void DeleteVeterinario(int IdVeterinario);
         Veterinario GetVeterinario(int IdVeterinario);
+        Veterinario GetVeterinarioPorId(int veterinarioId);
     }
 }
 
