@@ -10,5 +10,6 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         Mascota Update(Mascota mascotaActualizada);
         // void DeleteMascota(int IdMascota);
         Mascota GetMascota(int mascotica);
+        Mascota GetMascotaPorId(int mascotaId);
     }
 }

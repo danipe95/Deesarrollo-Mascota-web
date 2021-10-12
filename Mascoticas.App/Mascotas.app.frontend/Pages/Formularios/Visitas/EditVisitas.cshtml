@@ -2,3 +2,11 @@
 @model Mascotas.app.frontend.Pages.EditVisitasModel
 @{
 }
+<h2>Edición de Visitas :@Model.Visita.Fecha</h2>
+<form method="post">
+     <input type="hidden" asp-for="Visita.Id"/>
+    
+
+    <button type="submit" class="btn btn-primary">Grabar</button>
+</form>
+<a asp-page="./FlisVisitas" class="btn-default">Lista de Visitas </a>

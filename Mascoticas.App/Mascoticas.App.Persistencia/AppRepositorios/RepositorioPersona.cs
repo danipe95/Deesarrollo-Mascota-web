@@ -40,9 +40,9 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 
             persona = new List<Persona>()
             {
-                new Persona{Id=4, /*idPersona="primerapersona",*/ Nombres="Pedro", Apellidos="Mina", Celular="3101250004", Email="PeMina@gmail.com"},
-                new Persona{Id=5, /*idPersona="segundapersona",*/ Nombres="Jose", Apellidos="Martinez", Celular="3101250005", Email="jmartinez1@hotmail.com"},
-                new Persona{Id=6, /*idPersona="tercerapersona",*/ Nombres="Sofia", Apellidos="Garzon", Celular="3101250006", Email="sofiG1@outlook.com"}
+                new Persona{Id=4, /*idPersona="primerapersona",*/ Nombres="Pedro", Apellidos="Mina", Celular="3101250", Email="PeMina@gmail.com"},
+                new Persona{Id=5, /*idPersona="segundapersona",*/ Nombres="Jose", Apellidos="Martinez", Celular="3101250", Email="jmartinez1@hotmail.com"},
+                new Persona{Id=6, /*idPersona="tercerapersona",*/ Nombres="Sofia", Apellidos="Garzon", Celular="3101250", Email="sofiG1@outlook.com"}
             };
         }
                                                                                                              

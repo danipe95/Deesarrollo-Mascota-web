@@ -127,5 +127,9 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         {
             return veterinario.SingleOrDefault(m => m.Id==IdVeterinario);
         }
+        public Veterinario GetVeterinarioPorId(int veterinarioId)      
+        {
+            return veterinario.SingleOrDefault(m => m.Id==veterinarioId);
+        }
     }
 }

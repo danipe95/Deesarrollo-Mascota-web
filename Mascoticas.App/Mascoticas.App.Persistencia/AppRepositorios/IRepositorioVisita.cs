@@ -10,5 +10,6 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         Visita UpdateVisita(Visita visitaActualizada);
         //void DeleteVisita(int idVisita);
         Visita GetVisita(int idVisita);
+        Visita GetVisitaPorId(int visitaId);
     }
 }

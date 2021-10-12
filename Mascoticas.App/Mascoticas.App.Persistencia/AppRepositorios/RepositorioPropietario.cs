@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Mascoticas.App.Dominio;
 
-namespace Mascoticas.App.Persistencia
+namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public class RepositorioPropietario:IRepositorioPropietario
     {
@@ -52,6 +52,11 @@ namespace Mascoticas.App.Persistencia
         public Propietario GetPropietario(int idPropietario)
         {
             return propietario.SingleOrDefault(m => m.Id==idPropietario);
+        }
+
+        public Propietario GetPropietarioPorId(int propietarioId)      
+        {
+            return propietario.SingleOrDefault(m => m.Id==propietarioId);
         }
 
         /* METODOS TOMADOS DE MASCOTA POR SI FALLAN LOS DE ABAJO que tienen _appContext,
