@@ -5,11 +5,11 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioVisita
     {
-        IEnumerable<Visita> GetAllVis(); 
+        IEnumerable<Visita> GetAll(); 
         Visita AddVisita(Visita nuevaVisita);
         Visita UpdateVisita(Visita visitaActualizada);
         //void DeleteVisita(int idVisita);
-        Visita GetVisita(int idVisita);
+        // Visita GetVisita(int idVisita);
         Visita GetVisitaPorId(int visitaId);
     }
 }

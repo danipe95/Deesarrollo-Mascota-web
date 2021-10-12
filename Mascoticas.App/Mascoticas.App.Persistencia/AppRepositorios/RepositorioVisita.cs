@@ -16,7 +16,6 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         }*/
 
         List<Visita> visita;
-
         public RepositorioVisita()
         {
 
@@ -46,15 +45,15 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             return visitaEncontrada;
         }
 
-         public IEnumerable<Visita> GetAllVis()
+        public IEnumerable<Visita> GetAll()
         {
             return visita;
         }
 
-        public Visita GetVisita(int idVisita)
-        {
-            return visita.SingleOrDefault(m => m.Id==idVisita);
-        }
+        // public Visita GetVisita(int idVisita)
+        // {
+        //     return visita.SingleOrDefault(m => m.Id==idVisita);
+        // }
 
         public Visita GetVisitaPorId(int visitaId)      
         {

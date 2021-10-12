@@ -9,7 +9,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         Veterinario AddVeterinario(Veterinario nuevoVeterinario);
         Veterinario UpdateVeterinario(Veterinario veterinarioActualizado);
         //void DeleteVeterinario(int IdVeterinario);
-        Veterinario GetVeterinario(int IdVeterinario);
+        // Veterinario GetVeterinario(int IdVeterinario);
         Veterinario GetVeterinarioPorId(int veterinarioId);
     }
 }

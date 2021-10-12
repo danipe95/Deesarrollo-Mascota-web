@@ -21,9 +21,9 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 
             veterinario = new List<Veterinario>()
             {
-                new Veterinario{/*Id=1,*/ /*Nombres="Juan", Apellidos="Perez", Celular=3101230000, Email="JPerez@MascotCracks.com",*/ TarjetaProfesional=1001},
-                new Veterinario{/*Id=2,*/ /*Nombres="Pepito", Apellidos="Gomez", Celular=3101230001, Email="pepiGomez@MascotCracks.com",*/ TarjetaProfesional=1002},
-                new Veterinario{/*Id=3,*/ /*Nombres="Ana", Apellidos="Lopez", Celular=3101230002, Email="AnitaLopez@MascotCracks.com",*/ TarjetaProfesional=1003 }
+                new Veterinario{Id=1,Nombres="Juan", Apellidos="Perez", Celular="3101230000", Email="JPerez@MascotCracks.com", TarjetaProfesional=1001},
+                new Veterinario{Id=2,Nombres="Pepito", Apellidos="Gomez", Celular="3101230001", Email="pepiGomez@MascotCracks.com", TarjetaProfesional=1002},
+                new Veterinario{Id=3,Nombres="Ana", Apellidos="Lopez", Celular="3101230002", Email="AnitaLopez@MascotCracks.com", TarjetaProfesional=1003 }
                 };
         }
         
@@ -65,11 +65,6 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             var veterinarioEncontrado= veterinario.SingleOrDefault(v => v.Id == veterinarioActualizado.Id);
             if (veterinarioEncontrado!=null)
             {  
-                /*veterinarioEncontrado.idPersona = veterinario.idPersona;
-                veterinarioEncontrado.Nombres = veterinario.Nombres;
-                veterinarioEncontrado.Apellidos = veterinario.Apellidos;
-                veterinarioEncontrado.Celular = veterinario.Celular;
-                veterinarioEncontrado.Email = veterinario.Email;*/
                 veterinarioEncontrado.TarjetaProfesional = veterinarioActualizado.TarjetaProfesional;
             }
             return veterinarioEncontrado;
@@ -121,11 +116,6 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         public IEnumerable<Veterinario> GetAll()
         {
             return veterinario;
-        }
-
-        public Veterinario GetVeterinario(int IdVeterinario)
-        {
-            return veterinario.SingleOrDefault(m => m.Id==IdVeterinario);
         }
         public Veterinario GetVeterinarioPorId(int veterinarioId)      
         {

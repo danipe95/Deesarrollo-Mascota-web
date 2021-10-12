@@ -21,9 +21,9 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 
             propietario = new List<Propietario>()
             {
-                new Propietario{/*Id=1,Nombres="Maria", Apellidos="Arias", Celular=3101240001, Email="MarArias@gmail.com",*/ Direccion = "calle 1 12-11"},
-                new Propietario{/*Id=2,Nombres="Daniel", Apellidos="Martinez", Celular=3101240002, Email="Dmartinez1@hotmail.com",*/ Direccion ="calle 10 20-50"},
-                new Propietario{/*Id=3,Nombres="Alejandra", Apellidos="Garzon", Celular=3101240003, Email="alejaG1@outlook.com",*/ Direccion ="calle siempreviva 123"}
+                new Propietario{Id=1,Nombres="Maria", Apellidos="Arias", Celular="3101240001", Email="MarArias@gmail.com", Direccion = "calle 1 12-11"},
+                new Propietario{Id=2,Nombres="Daniel", Apellidos="Martinez", Celular="3101240002", Email="Dmartinez1@hotmail.com", Direccion ="calle 10 20-50"},
+                new Propietario{Id=3,Nombres="Alejandra", Apellidos="Garzon", Celular="3101240003", Email="alejaG1@outlook.com", Direccion ="calle siempreviva 123"}
                 };
         }
 
@@ -44,15 +44,15 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             return PropietarioEncontrado;
         }
 
-        public IEnumerable<Propietario> GetAllPropietarios()
+        public IEnumerable<Propietario> GetAll()
         {
             return propietario;
         }
 
-        public Propietario GetPropietario(int idPropietario)
-        {
-            return propietario.SingleOrDefault(m => m.Id==idPropietario);
-        }
+        // public Propietario GetPropietario(int idPropietario)
+        // {
+        //     return propietario.SingleOrDefault(m => m.Id==idPropietario);
+        // }
 
         public Propietario GetPropietarioPorId(int propietarioId)      
         {

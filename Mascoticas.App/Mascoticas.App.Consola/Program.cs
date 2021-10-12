@@ -1,5 +1,4 @@
 ﻿using System;
-using Mascoticas.App.Dominio;
 
 namespace Mascoticas.App.Consola
 {

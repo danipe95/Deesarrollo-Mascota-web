@@ -17,7 +17,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
                 this.Apellidos = apellidos;
                 this.Celular = celular;
                 this.Email = email;
-               
+
         }
         int Id 
         String idPersona 
@@ -34,18 +34,17 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             _appContext = appContext;
         }*/
         List<Persona> persona;
-       
         public RepositorioPersona()
         {
 
             persona = new List<Persona>()
             {
-                new Persona{Id=4, /*idPersona="primerapersona",*/ Nombres="Pedro", Apellidos="Mina", Celular="3101250", Email="PeMina@gmail.com"},
-                new Persona{Id=5, /*idPersona="segundapersona",*/ Nombres="Jose", Apellidos="Martinez", Celular="3101250", Email="jmartinez1@hotmail.com"},
-                new Persona{Id=6, /*idPersona="tercerapersona",*/ Nombres="Sofia", Apellidos="Garzon", Celular="3101250", Email="sofiG1@outlook.com"}
+                new Persona{Id=4, idPersona="primerapersona", Nombres="Pedro", Apellidos="Mina", Celular="3101250", Email="PeMina@gmail.com"},
+                new Persona{Id=5, idPersona="segundapersona", Nombres="Jose", Apellidos="Martinez", Celular="3101250", Email="jmartinez1@hotmail.com"},
+                new Persona{Id=6, idPersona="tercerapersona", Nombres="Sofia", Apellidos="Garzon", Celular="3101250", Email="sofiG1@outlook.com"}
             };
         }
-                                                                                                             
+
         /* METODOS TOMADOS DE MASCOTA POR SI FALLAN LOS DE ABAJO que tienen _appContext,
         
         public Propietario Add(Propietario propietario)
@@ -111,7 +110,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             return persona.SingleOrDefault(m => m.Id==IdPersona);
         }
 
-        public IEnumerable<Persona> GetAllPersona()
+        public IEnumerable<Persona> GetAll()
         {
             return persona;
         }
