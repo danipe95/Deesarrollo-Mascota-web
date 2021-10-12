@@ -8,7 +8,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         IEnumerable<Visita> GetAllVis(); 
         Visita AddVisita(Visita nuevaVisita);
         Visita UpdateVisita(Visita visitaActualizada);
-        void DeleteVisita(int idVisita);
+        //void DeleteVisita(int idVisita);
         Visita GetVisita(int idVisita);
     }
 }

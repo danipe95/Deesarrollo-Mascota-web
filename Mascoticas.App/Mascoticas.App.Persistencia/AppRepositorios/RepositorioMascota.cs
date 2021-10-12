@@ -25,22 +25,22 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 
             mascota = new List<Mascota>()
             {
-                new Mascota{Id=1, Nombre="firulais", Tipo="perro", Raza="Huzki", /*Propietario=Daniel,*/Peso="30 kg",Temperatura="37°c", FrecuenciaCardiaca="baja", FrecuenciaRespiratoria="alta", EstadoAnimo="modo avion",Recomendaciones="mas croketas"},
-                new Mascota{Id=2, Nombre="luka", Tipo="gato", Raza="mao", /*Propietario="Amelia",*/Peso="19 kg",Temperatura="39°c", FrecuenciaCardiaca="elevada", FrecuenciaRespiratoria="baja", EstadoAnimo="modo avion",Recomendaciones="penicilina"},
-                new Mascota{Id=3, Nombre="piolin", Tipo="loro", Raza="australiano", /*Propietario="Katherine",*/Peso="60 gr",Temperatura="36°c", FrecuenciaCardiaca="normal", FrecuenciaRespiratoria="normal", EstadoAnimo="bueno", Recomendaciones="ninguna"}
+                new Mascota{IdMascota=1, Nombre="firulais", Tipo="perro", Raza="Huzki", /*IdPropietario=1,*/ Peso="30 kg",Temperatura="37°c", FrecuenciaCardiaca="baja", FrecuenciaRespiratoria="alta", EstadoAnimo="modo avion",Recomendaciones="mas croketas"},
+                new Mascota{IdMascota=2, Nombre="luka", Tipo="gato", Raza="mao", /*IdPropietario=2,*/Peso="19 kg",Temperatura="39°c", FrecuenciaCardiaca="elevada", FrecuenciaRespiratoria="baja", EstadoAnimo="modo avion",Recomendaciones="penicilina"},
+                new Mascota{IdMascota=3, Nombre="piolin", Tipo="loro", Raza="australiano", /*IdPropietario=3,*/Peso="60 gr",Temperatura="36°c", FrecuenciaCardiaca="normal", FrecuenciaRespiratoria="normal", EstadoAnimo="bueno", Recomendaciones="ninguna"}
                 };
         }
 
         public Mascota Add(Mascota nuevaMascota)
         {
-            nuevaMascota.Id = mascota.Max(r => r.Id)+1;
+            nuevaMascota.IdMascota = mascota.Max(r => r.IdMascota)+1;
             mascota.Add(nuevaMascota);
             return nuevaMascota;
         }
 
         public Mascota Update(Mascota mascotaActualizada)
         {
-            var mascotas= mascota.SingleOrDefault(r => r.Id==mascotaActualizada.Id);
+            var mascotas= mascota.SingleOrDefault(r => r.IdMascota==mascotaActualizada.IdMascota);
             if (mascotas!=null)
             {   /*
             ___________________________________________________________
@@ -52,7 +52,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
                 mascotas.Nombre = mascotaActualizada.Nombre;
                 mascotas.Tipo = mascotaActualizada.Tipo;
                 mascotas.Raza = mascotaActualizada.Raza;
-                //mascota.Propietario = mascotaActualizada.Propietario;
+                //mascota.IdPropietario = mascotaActualizada.IdPropietario;
                 mascotas.Peso = mascotaActualizada.Peso;
                 mascotas.Temperatura = mascotaActualizada.Temperatura;
                 mascotas.FrecuenciaCardiaca = mascotaActualizada.FrecuenciaCardiaca;
@@ -82,9 +82,9 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         // }
 
 
-        public Mascota GetMascotaId(int mascotaId)
+        public Mascota GetMascota(int mascotica)
         {
-            return mascota.SingleOrDefault(m => m.Id==mascotaId);
+            return mascota.SingleOrDefault(m => m.IdMascota==mascotica);
         }
 
     }

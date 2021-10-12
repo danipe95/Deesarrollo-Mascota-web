@@ -6,13 +6,58 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public class RepositorioVisita : IRepositorioVisita
     {
-        private readonly AppContext _appContext;
+        /*datos visita: String Fecha, int Id*/
+        
+        /*private readonly AppContext _appContext;
         
         public RepositorioVisita(AppContext appContext)
         {
             _appContext = appContext;
+        }*/
+
+        List<Visita> visita;
+
+        public RepositorioVisita()
+        {
+
+            visita = new List<Visita>()
+            {
+                new Visita{IdVisita=1, Fecha="01/01/2021"},
+                new Visita{IdVisita=2, Fecha = "31/10/2021"},
+                new Visita{IdVisita=3, Fecha = "01/11/2021"}
+                };
         }
 
+        public Visita AddVisita(Visita nuevaVisita)
+        {
+            nuevaVisita.IdVisita = visita.Max(r => r.IdVisita)+1;
+            visita.Add(nuevaVisita);
+            return nuevaVisita;
+        }
+
+        public Visita UpdateVisita(Visita visitaActualizada)
+        {
+            var visitaEncontrada= visita.SingleOrDefault(r => r.IdVisita==visitaActualizada.IdVisita);
+            if (visitaEncontrada!=null)
+            {  
+                visitaEncontrada.IdVisita = visitaActualizada.IdVisita;
+                visitaEncontrada.Fecha = visitaActualizada.Fecha;
+            }
+            return visitaEncontrada;
+        }
+
+         public IEnumerable<Visita> GetAllVis()
+        {
+            return visita;
+        }
+
+        public Visita GetVisita(int idVisita)
+        {
+            return visita.SingleOrDefault(m => m.IdVisita==idVisita);
+        }
+
+        
+        /*
         Visita IRepositorioVisita.AddVisita(Visita nuevaVisita)
         {
             var visitaAdicionada = _appContext.Visitas.Add(nuevaVisita);
@@ -49,6 +94,6 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         IEnumerable<Visita> IRepositorioVisita.GetAllVis()
         {
             return _appContext.Visitas;
-        }
+        }*/
     }
 }

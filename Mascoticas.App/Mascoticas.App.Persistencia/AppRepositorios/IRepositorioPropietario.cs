@@ -6,9 +6,9 @@ namespace Mascoticas.App.Persistencia
     public interface IRepositorioPropietario
     {
         IEnumerable<Propietario> GetAllPropietarios(); 
-        Propietario AddPropietario(Propietario propietario);
-        Propietario UpdatePropietario(Propietario propietario);
-        void DeletePropietario(int idPropietario);
+        Propietario AddPropietario(Propietario npropietario);
+        Propietario UpdatePropietario(Propietario propietarioA);
+        //void DeletePropietario(int idPropietario);
         Propietario GetPropietario(int idPropietario);
     }           
 }
