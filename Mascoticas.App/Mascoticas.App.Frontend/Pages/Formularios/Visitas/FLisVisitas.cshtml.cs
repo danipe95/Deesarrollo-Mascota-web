@@ -21,7 +21,7 @@ namespace Mascoticas.App.Frontend.Pages
         }
         public void OnGet()
         {           
-            Visitas = repositorioVisita.GetAllVis();
+            Visitas = repositorioVisita.GetAll();
         }
         
     }
