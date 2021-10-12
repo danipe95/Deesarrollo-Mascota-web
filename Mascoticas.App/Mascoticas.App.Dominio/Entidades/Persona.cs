@@ -7,7 +7,7 @@ namespace Mascoticas.App.Dominio
         public String idPersona{get;set;}
         public String Nombres {get;set;}
         public String Apellidos {get;set;}
-        public int Celular {get;set;}
+        public String Celular {get;set;}
         public String Email {get;set;}
         
     }

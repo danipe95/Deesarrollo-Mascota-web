@@ -3,7 +3,7 @@ namespace Mascoticas.App.Dominio
 {
     public class Mascota
     {
-        public int Id{get;set;}
+        public int IdMascota{get;set;}
         public String Nombre {get;set;}
         public String Tipo {get;set;}
         public String Raza {get;set;}
