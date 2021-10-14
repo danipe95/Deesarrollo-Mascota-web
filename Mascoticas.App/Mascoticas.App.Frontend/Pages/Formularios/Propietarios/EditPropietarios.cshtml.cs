@@ -19,9 +19,9 @@ namespace Mascoticas.App.Frontend.Pages
         {
             this.repositorioPropietario = repositorioPropietario;
         }
-        public IActionResult OnGet(int PropietarioId)
+        public IActionResult OnGet(int idPropietario)
         {
-            Propietarios = repositorioPropietario.GetPropietarioPorId(PropietarioId);
+            Propietarios = repositorioPropietario.GetPropietario(idPropietario);
             if(Propietarios==null)
             {
                 return RedirectToPage("./NotFound");

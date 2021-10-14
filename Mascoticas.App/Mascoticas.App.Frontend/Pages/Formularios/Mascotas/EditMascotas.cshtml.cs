@@ -19,9 +19,9 @@ namespace Mascoticas.App.Frontend.Pages
         {
             this.repositorioMascota = repositorioMascota;
         }
-        public IActionResult OnGet(int mascotaId)
+        public IActionResult OnGet(int idMascota)
         {
-            Mascotas = repositorioMascota.GetMascotaPorId(mascotaId);
+            Mascotas = repositorioMascota.GetMascota(idMascota);
             if(Mascotas==null)
             {
                 return RedirectToPage("./NotFound");

@@ -21,7 +21,7 @@ namespace Mascoticas.App.Frontend.Pages
 
         public void OnGet()
         {           
-            Mascotas = repositorioMascota.GetAll();
+            Mascotas = repositorioMascota.GetAllMascota();
         }
         
     }

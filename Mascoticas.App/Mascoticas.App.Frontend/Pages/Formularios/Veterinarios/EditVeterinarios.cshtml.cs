@@ -19,9 +19,9 @@ namespace Mascoticas.App.Frontend.Pages
         {
             this.repositorioVeterinario = repositorioVeterinario;
         }
-        public IActionResult OnGet(int VeterinarioId)
+        public IActionResult OnGet(int idVeterinario)
         {
-            Veterinarios = repositorioVeterinario.GetVeterinarioPorId(VeterinarioId);
+            Veterinarios = repositorioVeterinario.GetVeterinario(idVeterinario);
             if(Veterinarios==null)
             {
                 return RedirectToPage("./NotFound");

@@ -13,16 +13,16 @@ namespace Mascoticas.App.Frontend.Pages
     public class DetailsVeterinariosModel : PageModel
     {
         private readonly IRepositorioVeterinario repositorioVeterinario;
-        public IEnumerable<Veterinario> veterinarios {get;set;} 
+        public IEnumerable<Veterinario> Veterinarios {get;set;} 
 
         public DetailsVeterinariosModel(IRepositorioVeterinario repositorioVeterinario)
         {
             this.repositorioVeterinario = repositorioVeterinario;
         }
-        public IActionResult OnGet(int veterinarioId)
+        public IActionResult OnGet(int idVeterinario)
         {
-            veterinarios = repositorioVeterinario.GetVeterinarioPorId(veterinarioId);
-            if(veterinarios==null)
+            Veterinarios = repositorioVeterinario.GetVeterinario(idVeterinario);
+            if(Veterinarios==null)
             {
                 return RedirectToPage("./NotFound");
             }

@@ -21,7 +21,7 @@ namespace Mascoticas.App.Frontend.Pages
 
         public void OnGet()
         {           
-            Propietarios = repositorioPropietario.GetAll();
+            Propietarios = repositorioPropietario.GetAllPropietario();
         }
         
     }

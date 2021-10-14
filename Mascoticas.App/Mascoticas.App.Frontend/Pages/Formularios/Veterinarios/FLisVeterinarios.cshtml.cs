@@ -20,7 +20,7 @@ namespace Mascoticas.App.Frontend.Pages
         }
         public void OnGet()
         {           
-            Veterinarios = repositorioVeterinario.GetAll();
+            Veterinarios = repositorioVeterinario.GetAllVeterinario();
         }
         
     }

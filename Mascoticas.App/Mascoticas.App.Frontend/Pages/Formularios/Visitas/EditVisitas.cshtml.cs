@@ -20,9 +20,9 @@ namespace Mascoticas.App.Frontend.Pages
         {
             this.repositorioVisita = repositorioVisita;
         }
-        public IActionResult OnGet(int VisitaId)
+        public IActionResult OnGet(int idVisita)
         {
-            Visitas = repositorioVisita.GetVisitaPorId(VisitaId);
+            Visitas = repositorioVisita.GetVisita(idVisita);
             if(Visitas==null)
             {
                 return RedirectToPage("./NotFound");
