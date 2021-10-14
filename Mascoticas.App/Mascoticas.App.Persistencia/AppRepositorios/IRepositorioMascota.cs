@@ -5,11 +5,20 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioMascota
     {
-        IEnumerable<Mascota> GetAll(); 
-        Mascota Add(Mascota nuevaMascota);
-        Mascota Update(Mascota mascotaActualizada);
+        IEnumerable<Mascota> GetAllMascota(); 
+        Mascota AddMascota(Mascota mascota);
+        Mascota UpdateMascota(Mascota mascota);
+        void DeleteMascota(int idMascota);
+        Mascota GetMascota(int idMascota);
+        
+
+
+
+        // IEnumerable<Mascota> GetAll(); 
+        // Mascota AddM(Mascota nuevaMascota);
+        // Mascota Update(Mascota mascotaActualizada);
         // void DeleteMascota(int IdMascota);
         // Mascota GetMascota(int mascotica);
-        Mascota GetMascotaPorId(int mascotaId);
+        // Mascota GetMascotaPorId(int mascotaId);
     }
 }

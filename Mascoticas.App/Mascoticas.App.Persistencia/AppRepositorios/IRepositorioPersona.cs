@@ -5,10 +5,10 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioPersona
     {
-        IEnumerable<Persona> GetAll(); 
-        Persona AddPersona(Persona nuevaPersona);
-        Persona UpdatePersona(Persona actualizarPersona);
-        //void DeletePersona(int IdPersona);
-        Persona GetPersona(int IdPersona);         
+        IEnumerable<Persona> GetAllPersona(); 
+        Persona AddPersona(Persona persona);
+        Persona UpdatePersona(Persona persona);
+        void DeletePersona(int idPersona);
+        Persona GetPersona(int idPersona);         
     }
 }

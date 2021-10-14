@@ -5,11 +5,11 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioPropietario
     {
-        IEnumerable<Propietario> GetAll(); 
-        Propietario AddPropietario(Propietario npropietario);
-        Propietario UpdatePropietario(Propietario propietarioA);
-        //void DeletePropietario(int idPropietario);
-        // Propietario GetPropietario(int idPropietario);
-        Propietario GetPropietarioPorId(int propietarioId);
+        IEnumerable<Propietario> GetAllPropietario(); 
+        Propietario AddPropietario(Propietario propietario);
+        Propietario UpdatePropietario(Propietario propietario);
+        void DeletePropietario(int idPropietario);
+        Propietario GetPropietario(int idPropietario);
+        
     }           
 }

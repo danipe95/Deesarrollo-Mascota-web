@@ -27,12 +27,12 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         String Email         
         */
 
-        //private readonly AppContext _appContext;
+        private readonly AppContext _appContext;
 
-        /*public RepositorioPersona(AppContext appContext)
+        public RepositorioPersona(AppContext appContext)
         {
             _appContext = appContext;
-        }*/
+        }
         List<Persona> persona;
         public RepositorioPersona()
         {
@@ -55,16 +55,16 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
             // se puede confundir la variable propietario que esta el List con la variable propietario que esta declarada en este metodo
         }
 
-        public Persona Update(Persona nuevaPersona)
+        Persona IRepositorioPersona UpdatePersona(Persona persona)
         {
-            var PersonaEncontrada= persona.SingleOrDefault(p => p.Id == propietario.Id);
-            if (PersonaEncontrada!=null)
+            var personaEncontrada= persona.SingleOrDefault(p => p.Id == propietario.Id);
+            if (personaEncontrada!=null)
             {  
-                PersonaEncontrada.idPersona = persona.idPersona;
-                PersonaEncontrada.Nombres = persona.Nombres;
-                PersonaEncontrada.Apellidos = persona.Apellidos;
-                PersonaEncontrada.Celular = persona.Celular;
-                PersonaEncontrada.Email = persona.Email;
+                personaEncontrada.idPersona = persona.idPersona;
+                personaEncontrada.Nombres = persona.Nombres;
+                personaEncontrada.Apellidos = persona.Apellidos;
+                personaEncontrada.Celular = persona.Celular;
+                personaEncontrada.Email = persona.Email;
             }
             return PersonaEncontrada;
             
@@ -83,38 +83,72 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
         */
         /*
         */
-
-        public Persona AddPersona(Persona nuevaPersona)
+        Persona IRepositorioPersona.AddPersona(Persona persona)
         {
-            nuevaPersona.Id = persona.Max(r => r.Id)+1;
-            persona.Add(nuevaPersona);
-            return nuevaPersona; 
+             var personaAdicionada= _appContext.Personas.Add(persona);
+            _appContext.SaveChanges();
+            return personaAdicionada.Entity;
+            // nuevaPersona = persona.Max(r => r.Id)+1;
+            // persona.Add(nuevaPersona);
+            // return nuevaPersona; 
+        }
+        // public Persona AddPersona(Persona nuevaPersona)
+        // {
+        //     nuevaPersona.Id = persona.Max(r => r.Id)+1;
+        //     persona.Add(nuevaPersona);
+        //     return nuevaPersona; 
+        // }
+        // 
+        // //////////////////////////////////DELETE/////////////////////
+        void IRepositorioPersona.DeletePersona(int idPersona)
+        {
+            var personaEncontrada = _appContext.Personas.FirstOrDefault(p => p.Id == idPersona);
+            if(personaEncontrada == null)
+                return;
+            _appContext.Personas.Remove(personaEncontrada);
+            _appContext.SaveChanges();
         }
 
-        public Persona UpdatePersona(Persona nuevaPersona)
+
+        /*void IRepositorioPersona.DeletePersona(int idPersona)
         {
-            var PersonaEncontrada= persona.SingleOrDefault(p => p.Id == nuevaPersona.Id);
-            if (PersonaEncontrada!=null)
+            var PersonaEncontrada = _appContext.Personas.FirstOrDefault(p => p.Id == idPersona);
+            if(PersonaEncontrada == null)
+                return;
+            _appContext.Personas.Remove(PersonaEncontrada);
+            _appContext.SaveChanges();
+        }*/
+        Persona IRepositorioPersona.UpdatePersona(Persona persona)
+        {
+            var personaEncontrada= _appContext.Personas.SingleOrDefault(p => p.Id == persona.Id);
+            if (personaEncontrada!=null)
             {  
-                PersonaEncontrada.idPersona = nuevaPersona.idPersona;
-                PersonaEncontrada.Nombres = nuevaPersona.Nombres;
-                PersonaEncontrada.Apellidos = nuevaPersona.Apellidos;
-                PersonaEncontrada.Celular = nuevaPersona.Celular;
-                PersonaEncontrada.Email = nuevaPersona.Email;
+                personaEncontrada.idPersona = persona.idPersona;
+                personaEncontrada.Nombres = persona.Nombres;
+                personaEncontrada.Apellidos = persona.Apellidos;
+                personaEncontrada.Celular = persona.Celular;
+                personaEncontrada.Email = persona.Email;
+                _appContext.SaveChanges();
             }
-            return PersonaEncontrada;            
+            return personaEncontrada;            
         }
 
-        public Persona GetPersona(int IdPersona)
+        IEnumerable<Persona> IRepositorioPersona.GetAllPersona()
         {
-            return persona.SingleOrDefault(m => m.Id==IdPersona);
+            return _appContext.Personas;
         }
 
-        public IEnumerable<Persona> GetAll()
+        // public IEnumerable<Persona> GetAll()
+        // {
+        //     return persona;
+        // }
+
+        Persona  IRepositorioPersona.GetPersona(int idPersona)
         {
-            return persona;
+            return _appContext.Personas.FirstOrDefault(P => P.Id==idPersona);     
         }
 
+        
         /*
         
         Persona IRepositorioPersona.AddPersona(Persona nuevaPersona)
@@ -138,14 +172,7 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
                 return PersonaEncontrada;
         }*/
 
-        /*void IRepositorioPersona.DeletePersona(int idPersona)
-        {
-            var PersonaEncontrada = _appContext.Personas.FirstOrDefault(p => p.Id == idPersona);
-            if(PersonaEncontrada == null)
-                return;
-            _appContext.Personas.Remove(PersonaEncontrada);
-            _appContext.SaveChanges();
-        }*/
+        
 
         
 

@@ -5,12 +5,12 @@ namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioVeterinario
     {
-        IEnumerable<Veterinario> GetAll(); 
-        Veterinario AddVeterinario(Veterinario nuevoVeterinario);
-        Veterinario UpdateVeterinario(Veterinario veterinarioActualizado);
-        //void DeleteVeterinario(int IdVeterinario);
-        // Veterinario GetVeterinario(int IdVeterinario);
-        Veterinario GetVeterinarioPorId(int veterinarioId);
+        IEnumerable<Veterinario> GetAllVeterinario(); 
+        Veterinario AddVeterinario(Veterinario veterinario);
+        Veterinario UpdateVeterinario(Veterinario veterinario);
+        void DeleteVeterinario(int idVeterinario);
+        Veterinario GetVeterinario(int idVeterinario);
+        // Veterinario GetVeterinarioPorId(int veterinarioId);
     }
 }
 

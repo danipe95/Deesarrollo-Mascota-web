@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Mascoticas.App.Dominio;
 
-namespace Mascoticas.App.Persistencia
+namespace Mascoticas.App.Persistencia.AppRepositorios
 {
     public class AppContext : DbContext
     {

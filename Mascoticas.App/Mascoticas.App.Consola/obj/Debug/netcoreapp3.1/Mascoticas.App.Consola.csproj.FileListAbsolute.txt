@@ -66,3 +66,5 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netco
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Persistencia.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Persistencia.pdb
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Dominio.pdb
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.dll
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.pdb
