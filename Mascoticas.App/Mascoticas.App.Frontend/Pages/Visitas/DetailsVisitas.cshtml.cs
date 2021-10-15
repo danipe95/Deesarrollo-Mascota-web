@@ -21,7 +21,7 @@ namespace Mascoticas.App.Frontend.Pages
         {
             this.repositorioVisita = repositorioVisita;
         }
-        public IActionResult OnGet(int iisita)
+        public IActionResult OnGet(int idVisita)
         {
             visitas = repositorioVisita.GetVisita(idVisita);
             if(visitas==null)
