@@ -1,0 +1,24 @@
+﻿@page
+@model Mascoticas.App.Frontend.Pages.DetailsPropietariosModel
+@{
+}
+<h2>datos del Propietario</h2>
+<div>
+    Id: @Model.Propietarios.Id
+</div>
+<div>
+    Nombres: @Model.Propietarios.Nombres
+</div>
+<div>
+    Apellidos: @Model.Propietarios.Apellidos
+</div>
+<div>
+    Celular: @Model.Propietarios.Celular
+</div>
+<div>
+    Email: @Model.Propietarios.Email
+</div>
+<div>
+    Email: @Model.Propietarios.Direccion
+</div>
+<a asp-page="./FLisPropietarios" class="btn-default">Lista de Propietarios </a>

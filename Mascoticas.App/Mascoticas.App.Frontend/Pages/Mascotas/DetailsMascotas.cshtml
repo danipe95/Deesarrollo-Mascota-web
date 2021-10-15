@@ -1,0 +1,65 @@
+﻿@page
+@model Mascoticas.App.Frontend.Pages.DetailsMascotasModel
+@{
+    /*
+     public int Id{get;set;}
+        public string Nombre {get;set;}
+        public string Tipo {get;set;}
+        public string Raza {get;set;}
+        public string Propietario {get;set;}
+        public string Peso {get;set;}
+        public string Temperatura {get;set;}
+        public string FrecuenciaCardiaca {get;set;}
+        public string FrecuenciaRespiratoria {get;set;}
+        public string EstadoAnimo {get;set;}
+        public string Recomendaciones {get;set;}
+        public List<Visita> Visitas { get; set; }
+    */
+}
+<h2>MASCOTAS</h2>
+<div>
+    Id: @Model.Mascotas.Id
+</div>
+
+<div>
+    Nombre mascota: @Model.Mascotas.Nombre
+</div>
+
+<div>
+    Tipo: @Model.Mascotas.Tipo
+</div>
+
+<div>
+    Raza: @Model.Mascotas.Raza
+</div>
+
+<div>
+    Propietario: @Model.Mascotas.Propietario
+</div>
+
+<div>
+    Peso: @Model.Mascotas.Peso
+</div>
+
+<div>
+    Temperatura: @Model.Mascotas.Temperatura
+</div>
+
+<div>
+    Frecuencia cardiaca: @Model.Mascotas.FrecuenciaCardiaca
+</div>
+
+<div>
+    Frecuencia Respiratoria: @Model.Mascotas.FrecuenciaRespiratoria
+</div>
+
+<div>
+   Estado animico: @Model.Mascotas.EstadoAnimo
+</div>
+
+<div>
+    Recomendaciones: @Model.Mascotas.Recomendaciones
+</div>
+
+
+<a asp-page="./FLisMascotas" class="btn-default">Lista de Mascotas </a>

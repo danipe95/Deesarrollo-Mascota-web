@@ -20,7 +20,7 @@ namespace Mascoticas.App.Frontend
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; set;}
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -30,7 +30,7 @@ namespace Mascoticas.App.Frontend
             services.AddScoped<IRepositorioPropietario, RepositorioPropietario>();
             services.AddScoped<IRepositorioVeterinario, RepositorioVeterinario>();
             services.AddScoped<IRepositorioVisita, RepositorioVisita>();
-            services.AddDbContext<Mascoticas.App.Persistencia.AppContext>();
+            services.AddDbContext<Mascoticas.App.Persistencia.AppRepositorios.AppContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

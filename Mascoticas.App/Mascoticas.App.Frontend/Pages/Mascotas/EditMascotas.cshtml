@@ -1,0 +1,21 @@
+﻿@page
+@model Mascoticas.App.Frontend.Pages.EditModel
+@{
+}
+<h2>Edición de Mascotas :@Model.Mascotas.Nombre</h2>
+<form method="post">
+    <input type="hidden" asp-for="Mascotas.Id"/>
+    <div class="form-group">
+        <label asp-for="Mascotas.Nombre"></label>
+        <input asp-for="Mascotas.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="Mascotas.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Mascotas.Raza"></label>
+        <input asp-for="Mascotas.Raza" class="form-control">
+        <span class="text-danger" asp-validation-for="Mascotas.Raza"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Grabar</button>
+</form>
+<a asp-page="./FlisMascotas" class="btn-default">Lista de Mascotas </a>

@@ -1,0 +1,33 @@
+﻿@page
+@model Mascoticas.App.Frontend.Pages.EditVeterinariosModel
+@{
+}
+<h2>Edición de Veterinarios</h2>
+<form method="post">
+    <input type="hidden" asp-for="Veterinarios.TarjetaProfesional"/>
+    <div class="form-group">
+        <label asp-for="Veterinarios.Nombres"></label>
+        <input asp-for="Veterinarios.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="Veterinarios.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Veterinarios.Apellidos"></label>
+        <input asp-for="Veterinarios.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Veterinarios.Apellidos"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Veterinarios.Celular"></label>
+        <input asp-for="Veterinarios.Celular" class="form-control">
+        <span class="text-danger" asp-validation-for="Veterinarios.Celular"></span>
+    </div>
+
+<div class="form-group">
+        <label asp-for="Veterinarios.Email"></label>
+        <input asp-for="Veterinarios.Email" class="form-control">
+        <span class="text-danger" asp-validation-for="Veterinarios.Email"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Grabar</button>
+</form>
+<a asp-page="./FlisVeterinarios" class="btn-default">Lista de Veterinarios </a>
