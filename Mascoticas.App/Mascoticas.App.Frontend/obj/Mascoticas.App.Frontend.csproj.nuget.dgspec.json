@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj": {}
+    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
+    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
         "projectName": "Mascoticas.App.Dominio",
-        "projectPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\obj\\",
+        "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj": {
+    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj",
+        "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj",
         "projectName": "Mascoticas.App.Frontend",
-        "projectPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\obj\\",
+        "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -78,11 +78,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
-                "projectPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj"
+              "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
+                "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj"
               },
-              "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj": {
-                "projectPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj"
+              "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj": {
+                "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj"
               }
             }
           }
@@ -117,17 +117,17 @@
         }
       }
     },
-    "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj": {
+    "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
         "projectName": "Mascoticas.App.Persistencia",
-        "projectPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\obj\\",
+        "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Daniel Engativa\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Daniel Engativa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -138,8 +138,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
-                "projectPath": "C:\\Deesarrollo-Mascota-web\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj"
+              "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj": {
+                "projectPath": "D:\\Programas desarrollo\\Mascota_Feliz\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj"
               }
             }
           }
