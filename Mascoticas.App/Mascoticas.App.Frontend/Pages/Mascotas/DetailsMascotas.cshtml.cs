@@ -15,7 +15,8 @@ namespace Mascoticas.App.Frontend.Pages
     {
         private readonly IRepositorioMascota repositorioMascota;
         
-        public IEnumerable<Mascota> Mascotas{set;get;} 
+        //public IEnumerable<Mascota> Mascotas{set;get;} 
+        public Mascota Mascotas {set;get;}
 
         public DetailsMascotasModel(IRepositorioMascota repositorioMascota)
         {

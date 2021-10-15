@@ -18,19 +18,19 @@
             </tr>
     </thead>
 
-                @foreach (var Propietario in Model.Propietarios)
+                @foreach (var Propietarios in Model.Propietarios)
                 {
                     <tr>
-                        <td>@Propietario.idPropietario</td>
-                        <td>@Propietario.Nombres</td>
-                        <td>@Propietario.Apellidos</td>
+                        <td>@Propietarios.Id</td>
+                        <td>@Propietarios.Nombres</td>
+                        <td>@Propietarios.Apellidos</td>
                     <td>
-                <a class="btn btn-primary table-btn" asp-page="./FInscripcionPropietario" asp-route-PropietarioId="@Propietario.Id">
+                <a class="btn btn-primary table-btn" asp-page="./FInscripcionPropietario" asp-route-PropietarioId="@Propietarios.Id">
                     <i class="fas fa-info-circle fa-lg"></i </a>
                 </td>
 
                 <td>
-                <a class="btn btn-primary table-btn" asp-page="./FInscripcionPropietario" asp-route-PropietarioId="@Propietario.Id">
+                <a class="btn btn-primary table-btn" asp-page="./FInscripcionPropietario" asp-route-PropietarioId="@Propietarios.Id">
                     <i class="fas fa-info-circle fa-lg"></i </a>
                 </td>
 

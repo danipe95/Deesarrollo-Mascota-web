@@ -14,7 +14,8 @@ namespace Mascoticas.App.Frontend.Pages
     public class DetailsVisitasModel : PageModel
     {
         private readonly IRepositorioVisita repositorioVisita;
-        public IEnumerable<Visita> visitas {get;set;} 
+        //public IEnumerable<Visita> visitas {get;set;} 
+        public Visita visitas {set;get;}
 
         public DetailsVisitasModel(IRepositorioVisita repositorioVisita)
         {

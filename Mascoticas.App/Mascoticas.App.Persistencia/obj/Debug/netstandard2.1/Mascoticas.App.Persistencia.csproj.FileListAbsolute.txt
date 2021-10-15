@@ -46,3 +46,15 @@ C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Pe
 C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csproj.CopyComplete
 C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.dll
 C:\Deesarrollo-Mascota-web- 11-10 SIN FUNCIONAR\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.pdb
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Persistencia.deps.json
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Persistencia.dll
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Persistencia.pdb
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Dominio.dll
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\bin\Debug\netstandard2.1\Mascoticas.App.Dominio.pdb
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csprojAssemblyReference.cache
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.AssemblyInfoInputs.cache
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.AssemblyInfo.cs
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.csproj.CopyComplete
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.dll
+C:\Deesarrollo-Mascota-web\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Persistencia\obj\Debug\netstandard2.1\Mascoticas.App.Persistencia.pdb

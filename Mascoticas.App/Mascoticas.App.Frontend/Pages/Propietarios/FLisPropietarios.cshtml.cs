@@ -13,6 +13,7 @@ namespace Mascoticas.App.Frontend.Pages
     {
     private readonly IRepositorioPropietario repositorioPropietario;
         public IEnumerable<Propietario> Propietarios {get;set;} 
+        //public Propietario Propietarios {set;get;}
 
         public FLisPropietariosModel(IRepositorioPropietario repositorioPropietario)
         {

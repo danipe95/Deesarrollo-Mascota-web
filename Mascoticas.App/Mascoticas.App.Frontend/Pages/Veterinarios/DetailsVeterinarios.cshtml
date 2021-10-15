@@ -2,19 +2,19 @@
 @model Mascoticas.App.Frontend.Pages.DetailsVeterinariosModel
 @{
 }
-<h2>@Model.Veterinario.Nombre</h2>
+<h2>vet</h2>
 <div>
-    TarjetaProfesional: @Model.Veterinario.TarjetaProfesional
+    TarjetaProfesional: @Model.Veterinarios.TarjetaProfesional
 </div>
 <div>
-    Nombres: @Model.Veterinario.Nombres
+    Nombres: @Model.Veterinarios.Nombres
 </div>
 <div>
-    Apellidos: @Model.Veterinario.Apellidos
+    Apellidos: @Model.Veterinarios.Apellidos
 </div>
 <div>
-    Celular: @Model.Veterinario.Celular
+    Celular: @Model.Veterinarios.Celular
 </div>
 <div>
-    Email: @Model.Veterinario.Email
+    Email: @Model.Veterinarios.Email
 </div><a asp-page="./FLisVeterinarios" class="btn-default">Lista de Veterinarios </a>

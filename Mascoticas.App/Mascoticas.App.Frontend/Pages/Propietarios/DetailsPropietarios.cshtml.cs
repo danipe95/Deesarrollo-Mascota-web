@@ -14,7 +14,8 @@ namespace Mascoticas.App.Frontend.Pages
     public class DetailsPropietariosModel : PageModel
     {
         private readonly IRepositorioPropietario repositorioPropietario;
-        public IEnumerable<Propietario> Propietarios {set;get;} 
+        //public IEnumerable<Propietario> Propietarios {set;get;} 
+        public Propietario Propietarios {set;get;}
 
         public DetailsPropietariosModel(IRepositorioPropietario repositorioPropietario)
         {
