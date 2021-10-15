@@ -115,7 +115,6 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netc
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.TagHelpers.output.cache
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.RazorCoreGenerate.cache
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\FLogin.cshtml.g.cs
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\DetailsMascotas.cshtml.g.cs
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\EditMascotas.cshtml.g.cs

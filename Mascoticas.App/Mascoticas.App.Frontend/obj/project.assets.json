@@ -5738,7 +5738,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amemo\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5746,11 +5746,11 @@
       "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj",
       "projectName": "Mascoticas.App.Frontend",
       "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\Mascoticas.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\amemo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amemo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5799,13 +5799,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Frontend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
         "projectName": "Mascoticas.App.Dominio",
         "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\Mascoticas.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\amemo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amemo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -63,11 +63,11 @@
         "projectUniqueName": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
         "projectName": "Mascoticas.App.Persistencia",
         "projectPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\Mascoticas.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\amemo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Deesarrollo-Mascota-web\\Mascoticas.App\\Mascoticas.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amemo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
