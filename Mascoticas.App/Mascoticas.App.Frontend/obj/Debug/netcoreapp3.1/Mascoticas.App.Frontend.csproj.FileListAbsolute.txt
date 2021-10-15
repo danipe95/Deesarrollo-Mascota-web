@@ -5,3 +5,10 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netc
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.RazorAssemblyInfo.cache
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.RazorAssemblyInfo.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.csprojAssemblyReference.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.AssemblyInfoInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.AssemblyInfo.cs
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.csproj.CoreCompileInputs.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.RazorAssemblyInfo.cache
+D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Frontend\obj\Debug\netcoreapp3.1\Mascoticas.App.Frontend.RazorAssemblyInfo.cs
