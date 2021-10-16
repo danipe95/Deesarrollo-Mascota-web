@@ -4,18 +4,13 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netco
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Consola.runtimeconfig.dev.json
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Consola.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Consola.pdb
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.csprojAssemblyReference.cache
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.AssemblyInfoInputs.cache
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.AssemblyInfo.cs
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.csproj.CoreCompileInputs.cache
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.dll
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.pdb
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.genruntimeconfig.cache
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -25,12 +20,6 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netco
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.csproj.CopyComplete
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
@@ -39,7 +28,10 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netco
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
@@ -66,5 +58,11 @@ C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netco
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Persistencia.dll
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Persistencia.pdb
 C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\bin\Debug\netcoreapp3.1\Mascoticas.App.Dominio.pdb
-D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.dll
-D:\Programas desarrollo\Mascota_Feliz\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.pdb
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.csprojAssemblyReference.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.AssemblyInfoInputs.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.AssemblyInfo.cs
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.csproj.CoreCompileInputs.cache
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.csproj.CopyComplete
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.dll
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.pdb
+C:\Deesarrollo-Mascota-web\Mascoticas.App\Mascoticas.App.Consola\obj\Debug\netcoreapp3.1\Mascoticas.App.Consola.genruntimeconfig.cache

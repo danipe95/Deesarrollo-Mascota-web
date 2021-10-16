@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Mascoticas.App.Dominio;
 using Mascoticas.App.Persistencia.AppRepositorios;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Mascoticas.App.Frontend.Pages
 {
@@ -13,14 +14,12 @@ namespace Mascoticas.App.Frontend.Pages
     {
     private readonly IRepositorioPropietario repositorioPropietario;
         public IEnumerable<Propietario> Propietarios {get;set;} 
-        //public Propietario Propietarios {set;get;}
-
-        public FLisPropietariosModel(IRepositorioPropietario repositorioPropietario)
+        public FLisPropietariosModel()
         {
-            this.repositorioPropietario = repositorioPropietario;
+            this.repositorioPropietario = new RepositorioPropietario(new Mascoticas.App.Persistencia.AppRepositorios.AppContext());
         }
 
-        public void OnGet()
+        public void OnGet(string filtroBusqueda)
         {           
             Propietarios = repositorioPropietario.GetAllPropietario();
         }

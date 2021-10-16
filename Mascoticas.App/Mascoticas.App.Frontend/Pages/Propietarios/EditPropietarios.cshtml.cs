@@ -15,20 +15,45 @@ namespace Mascoticas.App.Frontend.Pages
         [BindProperty]
         public Propietario Propietarios {get;set;}
 
-        public EditPropietariosModel(IRepositorioPropietario repositorioPropietario)
+        public EditPropietariosModel()
         {
-            this.repositorioPropietario = repositorioPropietario;
+            this.repositorioPropietario = new RepositorioPropietario(new Mascoticas.App.Persistencia.AppRepositorios.AppContext());
         }
-        public IActionResult OnGet(int idPropietario)
+                public IActionResult OnGet(int? propietarioId)
         {
-            Propietarios = repositorioPropietario.GetPropietario(idPropietario);
-            if(Propietarios==null)
+            if (propietarioId.HasValue)
             {
-                return RedirectToPage("./NotFound");
+                Propietarios = repositorioPropietario.GetCliente(propietarioId.Value);
             }
             else
-            return Page();
+            {
+                Propietarios= new Propietario();
+            }
+            if (Propietarios == null)
+            {
+                return RedirectToPage("./Notfound");
+            }
+            else
+            {
+                return Page();
+            }
+        }
 
+        public IActionResult OnPost()
+        {
+                if (!ModelState.IsValid)
+                {
+                    return Page();
+                }
+                if (Propietario.Id>0)
+                {
+                    Propietarios= repositorioPropietario.UpdatePropietario(Propietario);
+                }
+                else
+                {
+                    repositorioPropietario.AddPropietario(Propietario);
+                }
+                return Page();
         }
     }
 }

@@ -14,12 +14,12 @@ namespace Mascoticas.App.Frontend.Pages
     public class DetailsPropietariosModel : PageModel
     {
         private readonly IRepositorioPropietario repositorioPropietario;
-        //public IEnumerable<Propietario> Propietarios {set;get;} 
+        
         public Propietario Propietarios {set;get;}
 
-        public DetailsPropietariosModel(IRepositorioPropietario repositorioPropietario)
+        public DetailsPropietariosModel()
         {
-            this.repositorioPropietario = repositorioPropietario;
+            this.repositorioPropietario = new RepositorioPropietario(new Mascoticas.App.Persistencia.AppRepositorios.AppContext());
         }
         public IActionResult OnGet(int idPropietario)
         {

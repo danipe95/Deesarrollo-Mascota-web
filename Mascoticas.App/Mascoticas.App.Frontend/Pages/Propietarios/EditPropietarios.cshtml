@@ -2,9 +2,15 @@
 @model Mascoticas.App.Frontend.Pages.EditPropietariosModel
 @{
 }
+int propietarioId=Model.Propietario.Id;
 <h2>Edición de Propietarios</h2>
 <form method="post">
     <input type="hidden" asp-for="Propietarios.Id"/>
+    <div class="form-group">
+        <label asp-for="Propietarios.idPersona"></label>
+        <input asp-for="Propietarios.idPersona" class="form-control">
+        <span class="text-danger" asp-validation-for="Propietarios.idPersona"></span>
+    </div>
     <div class="form-group">
         <label asp-for="Propietarios.Nombres"></label>
         <input asp-for="Propietarios.Nombres" class="form-control">

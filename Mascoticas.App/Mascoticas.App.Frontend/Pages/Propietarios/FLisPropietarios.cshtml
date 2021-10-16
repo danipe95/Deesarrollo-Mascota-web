@@ -18,19 +18,19 @@
             </tr>
     </thead>
 
-                @foreach (var Propietarios in Model.Propietarios)
+                @foreach (var Propietario in Model.Propietarios)
                 {
                     <tr>
-                        <td>@Propietarios.Id</td>
-                        <td>@Propietarios.Nombres</td>
-                        <td>@Propietarios.Apellidos</td>
+                        <td>@Propietario.idPersona</td>
+                        <td>@Propietario.Nombres</td>
+                        <td>@Propietario.Apellidos</td>
                     <td>
-                <a class="btn btn-primary table-btn" asp-page="./FInscripcionPropietario" asp-route-PropietarioId="@Propietarios.Id">
+                <a class="btn btn-primary table-btn" asp-page="./DetailsPropietarios" asp-route-PropietarioId="@Propietario.Id">
                     <i class="fas fa-info-circle fa-lg"></i </a>
                 </td>
 
                 <td>
-                <a class="btn btn-primary table-btn" asp-page="./FInscripcionPropietario" asp-route-PropietarioId="@Propietarios.Id">
+                <a class="btn btn-primary table-btn" asp-page="./EditPropietarios" asp-route-PropietarioId="@Propietario.Id">
                     <i class="fas fa-info-circle fa-lg"></i </a>
                 </td>
 
@@ -40,3 +40,4 @@
                 } 
 
             </table>
+            <a asp-page=".\EditPropietarios" class="btn btn-primary">Adicionar Propietario</a>
