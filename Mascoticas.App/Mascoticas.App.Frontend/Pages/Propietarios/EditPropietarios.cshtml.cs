@@ -23,7 +23,7 @@ namespace Mascoticas.App.Frontend.Pages
         {
             if (propietarioId.HasValue)
             {
-                Propietarios = repositorioPropietario.GetCliente(propietarioId.Value);
+                Propietarios = repositorioPropietario.GetPropietario(propietarioId.Value);
             }
             else
             {
@@ -47,11 +47,11 @@ namespace Mascoticas.App.Frontend.Pages
                 }
                 if (Propietario.Id>0)
                 {
-                    Propietarios= repositorioPropietario.UpdatePropietario(Propietario);
+                    Propietarios= repositorioPropietario.UpdatePropietario(Propietarios);
                 }
                 else
                 {
-                    repositorioPropietario.AddPropietario(Propietario);
+                    repositorioPropietario.AddPropietario(Propietarios);
                 }
                 return Page();
         }

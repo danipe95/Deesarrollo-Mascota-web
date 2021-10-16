@@ -15,12 +15,11 @@ namespace Mascoticas.App.Frontend.Pages
     {
         private readonly IRepositorioMascota repositorioMascota;
         
-        //public IEnumerable<Mascota> Mascotas{set;get;} 
         public Mascota Mascotas {set;get;}
 
-        public DetailsMascotasModel(IRepositorioMascota repositorioMascota)
+        public DetailsMascotasModel()
         {
-            this.repositorioMascota = repositorioMascota;
+            this.repositorioMascota = new RepositorioMascota(new Mascoticas.App.Persistencia.AppRepositorios.AppContext());
         }
         public IActionResult OnGet(int idMascota)
         {

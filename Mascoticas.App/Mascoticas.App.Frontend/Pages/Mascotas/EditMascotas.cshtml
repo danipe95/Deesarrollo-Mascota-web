@@ -1,7 +1,10 @@
 ﻿@page
 @model Mascoticas.App.Frontend.Pages.EditMascotasModel
 @{
+int mascotaId=Model.Mascotas.Id;
 }
+
+
 <h2>Edición de Mascotas :@Model.Mascotas.Nombre</h2>
 <form method="post">
     <input type="hidden" asp-for="Mascotas.Id"/>
